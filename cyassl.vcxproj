@@ -69,7 +69,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>DEBUG_CYASSL;NO_FILESYSTEM;OPENSSL_EXTRA;CYASSL_RIPEMD;CYASSL_SHA512;NO_PSK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CYASSL_AES_DIRECT;DEBUG_CYASSL;NO_FILESYSTEM;OPENSSL_EXTRA;CYASSL_RIPEMD;CYASSL_SHA512;NO_PSK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -83,7 +83,7 @@
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NO_FILESYSTEM;OPENSSL_EXTRA;CYASSL_RIPEMD;CYASSL_SHA512;NO_PSK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CYASSL_AES_DIRECT;NO_FILESYSTEM;OPENSSL_EXTRA;CYASSL_RIPEMD;CYASSL_SHA512;NO_PSK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeader />
@@ -96,7 +96,7 @@
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <AdditionalIncludeDirectories>./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NO_FILESYSTEM;OPENSSL_EXTRA;CYASSL_RIPEMD;CYASSL_SHA512;NO_PSK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CYASSL_AES_DIRECT;NO_FILESYSTEM;OPENSSL_EXTRA;CYASSL_RIPEMD;CYASSL_SHA512;NO_PSK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeader>
